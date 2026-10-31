@@ -44,152 +44,152 @@
       value: 3
     # metals
     - item: N14ScrapGold
-      value: 90
+      value: 100
     - item: N14IngotSilver1
-      value: 90
+      value: 100
     - item: N14IngotGold1
-      value: 180
+      value: 200
     # Farm produce. The Enclave's MegaSeed Servitor grows the vanilla Food* set;
     # the N14Food* twins are what wasteland foraging turns up. Both are bought so
     # neither source is dead weight.
     - item: CottonBol
-      value: 5
+      value: 8
     - item: FoodAloe
-      value: 5
+      value: 12
     - item: FoodAmbrosiaVulgaris
-      value: 5
+      value: 20
     - item: FoodApple
-      value: 5
+      value: 6
     - item: FoodBanana
-      value: 5
+      value: 8
     - item: FoodBerries
-      value: 5
+      value: 8
     - item: FoodCabbage
       value: 5
     - item: FoodCarrot
       value: 5
     - item: FoodCherry
-      value: 5
+      value: 9
     - item: FoodChiliPepper
-      value: 5
+      value: 11
     - item: FoodCocoaPod
-      value: 5
+      value: 20
     - item: FoodCorn
-      value: 5
+      value: 6
     - item: FoodEgg
-      value: 5
+      value: 8
     - item: FoodEggplant
-      value: 5
+      value: 6
     - item: FoodGalaxythistle
-      value: 5
+      value: 20
     - item: FoodGarlic
-      value: 5
+      value: 10
     - item: FoodGrape
-      value: 5
+      value: 10
     - item: FoodLemon
-      value: 5
+      value: 13
     - item: FoodLime
-      value: 5
+      value: 13
     - item: FoodLingzhi
-      value: 5
+      value: 20
     - item: FoodMushroom
-      value: 5
+      value: 9
     - item: FoodOnion
-      value: 5
+      value: 6
     - item: FoodOnionRed
-      value: 5
+      value: 7
     - item: FoodOrange
-      value: 5
+      value: 12
     - item: FoodPeaPod
-      value: 5
+      value: 6
     - item: FoodPoppy
-      value: 5
+      value: 20
     - item: FoodPotato
       value: 5
     - item: FoodPumpkin
-      value: 5
+      value: 7
     - item: FoodSoybeans
-      value: 5
+      value: 8
     - item: FoodTomato
-      value: 5
+      value: 7
     - item: FoodWatermelon
-      value: 5
+      value: 10
     - item: Log
-      value: 5
+      value: 12
     - item: OatBushel
-      value: 5
+      value: 16
     - item: RiceBushel
-      value: 5
+      value: 17
     - item: Sugarcane
-      value: 5
+      value: 18
     - item: WheatBushel
-      value: 5
+      value: 14
     - item: N14CottonBol
-      value: 5
+      value: 8
     - item: N14FoodAloe
-      value: 5
+      value: 12
     - item: N14FoodAmbrosiaVulgaris
-      value: 5
+      value: 20
     - item: N14FoodApple
-      value: 5
+      value: 6
     - item: N14FoodBanana
-      value: 5
+      value: 8
     - item: N14FoodBerries
-      value: 5
+      value: 8
     - item: N14FoodCabbage
       value: 5
     - item: N14FoodCarrot
       value: 5
     - item: N14FoodCocoaPod
-      value: 5
+      value: 20
     - item: N14FoodCorn
-      value: 5
+      value: 6
     - item: N14FoodEggplant
-      value: 5
+      value: 6
     - item: N14FoodGalaxythistle
-      value: 5
+      value: 20
     - item: N14FoodGarlic
-      value: 5
+      value: 10
     - item: N14FoodGrape
-      value: 5
+      value: 10
     - item: N14FoodLemon
-      value: 5
+      value: 13
     - item: N14FoodLime
-      value: 5
+      value: 13
     - item: N14FoodLingzhi
-      value: 5
+      value: 20
     - item: N14FoodMushroom
-      value: 5
+      value: 9
     - item: N14FoodOnion
-      value: 5
+      value: 6
     - item: N14FoodOnionRed
-      value: 5
+      value: 7
     - item: N14FoodOrange
-      value: 5
+      value: 12
     - item: N14FoodPeaPod
-      value: 5
+      value: 6
     - item: N14FoodPoppy
-      value: 5
+      value: 20
     - item: N14FoodPotato
       value: 5
     - item: N14FoodPumpkin
-      value: 5
+      value: 7
     - item: N14FoodSoybeans
-      value: 5
+      value: 8
     - item: N14FoodTomato
-      value: 5
+      value: 7
     - item: N14FoodWatermelon
-      value: 5
+      value: 10
     - item: N14Log
-      value: 5
+      value: 12
     - item: N14OatBushel
-      value: 5
+      value: 16
     - item: N14RiceBushel
-      value: 5
+      value: 17
     - item: N14Sugarcane
-      value: 5
+      value: 18
     - item: N14WheatBushel
-      value: 5
+      value: 14
 #MARK: Bounties
     # R&D collection board. Every request is for researched genetics disks, gated on
     # the rarity of the mutation encoded on them - blanks never count. Slots seed at
@@ -227,7 +227,7 @@
       - cost: 1200
         crate: N14CrateRequisitionsEnclaveDeagle
       - cost: 4000
-        stock: 1
+        stock: 2
         crate: N14CrateRequisitionsEnclaveGaussRifle
       - cost: 1000
         crate: N14CrateRequisitionsEnclaveRechargerPistol
@@ -244,19 +244,15 @@
       - cost: 2600
         crate: N14CrateRequisitionsEnclaveWattz3000
       - cost: 2800
-        stock: 3
         crate: N14CrateRequisitionsEnclaveRCW
       - cost: 4000
-        stock: 2
         crate: N14CrateRequisitionsEnclaveAER15
       - cost: 6000
         stock: 0
         crate: N14CrateRequisitionsEnclaveLaserGatling
       - cost: 1800
-        stock: 2
         crate: N14CrateRequisitionsEnclavePulseCarbine
       - cost: 2000
-        stock: 3
         crate: N14CrateRequisitionsEnclavePulsePistol
       - cost: 800
         crate: N14CrateRequisitionsEnclaveSidearm
@@ -269,7 +265,7 @@
       - cost: 3200
         crate: N14CrateRequisitionsEnclavePlasmaAuto
       - cost: 8000
-        stock: 0
+        stock: 1
         crate: N14CrateRequisitionsEnclavePlasmaCaster
     - name: n14-requisitions-category-ammunition
       entries:
@@ -294,14 +290,15 @@
       - cost: 1200
         crate: N14CrateRequisitionsEnclave40mmGrenades
       - cost: 1200
-        stock: 0
         crate: N14CrateRequisitionsEnclavePlasmaShell
       - cost: 1600
-        stock: 0
+        stock: 2
         crate: N14CrateRequisitionsEnclaveFusionCore
 #Organized by Armor
     - name: n14-requisitions-category-apparel
       entries:
+      - cost: 200
+        crate: N14CrateRequisitionsEnclaveRecruit      
       - cost: 200
         crate: N14CrateRequisitionsEnclaveUniforms
       - cost: 400
@@ -331,13 +328,13 @@
     - name: n14-requisitions-category-power-armor
       entries:
       - cost: 4000
-        stock: 2
+        stock: 6
         crate: N14CrateRequisitionsEnclavePowerArmorAPAMK1
       - cost: 6000
-        stock: 2
+        stock: 4
         crate: N14CrateRequisitionsEnclavePowerArmorAPAMK2Tesla
       - cost: 7500
-        stock: 1
+        stock: 2
         crate: N14CrateRequisitionsEnclavePATraining
     - name: n14-requisitions-category-equipment
       entries:
@@ -373,12 +370,10 @@
       - cost: 2000
         crate: N14CrateRequisitionsEnclaveChemWarfare
       - cost: 2500
-        stock: 1
         crate: N14CrateRequisitionsEnclavePipboyOfficer
       - cost: 3800
         crate: N14CrateRequisitionsEnclaveIngots
       - cost: 4500
-        stock: 3
         crate: N14CrateRequisitionsEnclavePipboy
     - name: n14-requisitions-category-science
       entries:
@@ -394,7 +389,7 @@
         stock: 0
         crate: N14CrateRequisitionsEnclaveConveyor
       - cost: 1000
-        stock: 0
+        stock: 5
         crate: N14CrateRequisitionsEnclaveCombatMedkit
       - cost: 1000
         crate: N14CrateRequisitionsEnclavePurge
@@ -1128,6 +1123,29 @@
       amount: 1
 
 #MARK: Apparel
+- type: entity
+  parent: N14CrateRequisitions
+  id: N14CrateRequisitionsEnclaveRecruit
+  name: U.S. Army Recruit Crate
+  components:
+  - type: Icon
+    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
+  - type: Sprite
+    sprite: _Nuclear14/Structures/Storage/Crates/crateenclave.rsi
+  - type: RequisitionsCrate
+    reward: 50
+  - type: StorageFill
+    contents:
+    - id: N14ClothingUniformJumpsuitEnclave
+      amount: 1
+    - id: N14ClothingHeadsetEnclave
+      amount: 1
+    - id: ClothingBeltEnclave
+      amount: 1
+    - id: N14IDEnclaveTrooper
+      amount: 1
+    - id: RadioHandheld
+      amount: 1
 - type: entity
   parent: N14CrateRequisitions
   id: N14CrateRequisitionsEnclaveUniforms
